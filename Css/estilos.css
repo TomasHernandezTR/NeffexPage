@@ -1,0 +1,248 @@
+        .menuprincipal{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(../Imagenes/Bryce\ fondo.jpg);
+            background-size: cover;      
+              
+        }
+
+      /*   .menuprincipal ul{
+            list-style-type: none; */
+
+      /* } */
+
+           .menuprincipal ul li {
+            list-style-type: none;
+            display: inline-block;
+            margin: 5.5%; 
+            justify-content: space-evenly;
+            
+             }
+
+
+             .menuprincipal ul li a{
+                color: white;
+             }
+
+             .imagenlogo{
+                width: 100px;
+                position: relative;
+               left: 1600px;
+               top: 150px;
+               
+                
+                
+
+             }
+        
+
+ 
+        h1{
+            text-align: center;
+            font-size: 40px ;
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        h2{
+            text-align: center;
+            color: red;
+           
+
+        }
+
+        .redes{
+            width: 70px;
+            height: 50px;
+            
+        }
+
+    .div1{
+       
+        display: flex;
+        margin-left: 40px;
+        margin-right: 40px;
+       text-align: right;
+       background-color: black;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+
+    }
+
+        .texto{
+            font-size: 30px;
+            /* display: flex; */
+            color: white;   
+            
+        }
+
+        .footerstyle{
+            background-color: gray;
+        }
+
+        .mainstyle{
+            background-color: black;
+        }
+
+
+        /* ESTILOS GALERIA */
+
+        .articlegaleria{
+            background-color: black;
+        }
+
+        .articlegaleria div{
+            position: relative;
+            left: 390px;
+            padding: 20px;
+            padding-bottom: 20px;
+           
+        }
+        .divgaleria1 img{
+            left: 500px;
+            padding: 20px;
+            padding-bottom: 20px;
+            padding-left: 100px;
+        }
+        
+        .divgaleria2 img{
+            left: 500px;
+            padding: 20px;
+            padding-bottom: 20px;
+            padding-left: 100px;
+            
+        }
+
+        .divgaleria3 img{
+            left: 500px;
+            padding: 20px;
+            padding-bottom: 20px;
+            padding-left: 100px;
+        } 
+
+        /* ESTILOS CONTACTO */
+
+        .maincontacto{
+          background-color: crimson;
+        }
+
+       .maincontacto div{
+        position: relative;
+        padding: 5px;
+        left: 43%;
+       }
+
+       /* ESTILOS MUSICA */
+       .mainmusica{
+        background-color: crimson;
+        height: 900px;
+        width: 1900px;
+       }
+
+       td{
+        font-weight: bold;
+       }
+     
+       .tablemusica{
+        position: relative;
+        left: 140px;
+       }
+
+       .tablemusica2{
+        position: relative;
+        left: 30px;
+       }
+
+       .tablemusica3{
+        position: relative;
+        bottom: 750px;
+        left: 600px;
+       }
+
+       .tablemusica4{
+        position: relative;
+        bottom: 720px;
+        left: 600px;
+       }
+
+       .h3musica{
+        position: relative;
+        left: 120px;
+       }
+
+       .h3musica2{
+        position: relative;
+        left: 90px;
+       }
+
+       .h3musica3{
+        position: relative;
+        left: 600px;
+        bottom: 750px;
+       }
+
+       .h3musica4{
+        position: relative;
+        left: 580px;
+        bottom: 730px;
+       }
+
+       /* ESTILOS BIOGRAFIA */
+
+       .mainbio{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 700px;
+       }
+       
+       .pbio{
+        position: relative;
+        margin-right: 1000px;
+        line-height: 25px;
+       }
+
+       .pbio2{
+        position: relative;
+        margin-right: 1000px;
+        line-height: 25px;
+        left: 900px;
+        bottom: 300px;
+       }
+
+       .fotobio{
+        position: relative;
+        left: 900px;
+        width: 400px;
+        bottom: 150px;
+        height: 200px;
+       }
+
+       .fotobio2{
+        position: relative;
+        left: 1400px;
+        bottom: 355px;
+       }
+       .fotobio3{
+        position: relative;
+        bottom: 580px;
+        margin-left: 600px;
+        height: 260px;
+       }
+       .fotobio4{
+        position: relative;
+        bottom: 800px;
+        margin-left: 200px;
+        width: 300px;
+
+       }
+
+       
+
+
+
+
+
+
+
+
