@@ -78,10 +78,12 @@
 
         .footerstyle{
             background-color: gray;
+            grid-area: footer;
         }
 
         .mainstyle{
             background-color: black;
+            grid-area: main;
         }
 
 
@@ -194,6 +196,7 @@
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         height: 700px;
+        grid-area: main;
        }
        
        .pbio{
@@ -237,8 +240,94 @@
 
        }
 
-       
+       /* RESPONSIVE INDEX */
 
+       .headerindex{
+        grid-area: header;
+       }
+
+       .bodyindex{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(2, 1fr);
+        grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer" ;
+       }
+
+       @media screen and (max-width: 768px){
+        .bodyindex{
+            grid-template-rows: 0.5fr 1fr;
+            grid-template-areas: 
+            "header header header"
+            "main main footer";
+        }
+
+       }
+
+       @media screen and (max-width: 500px){
+        .bodyindex{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        }
+
+       }
+
+       /* RESPONSIVE BIOGRAFIA */
+
+       .headerbio{
+        grid-area: header;
+       }
+
+       .bodybio{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:repeat(3, 1fr);
+        grid-template-areas:
+        "header header header"
+        "main main main"
+        "footer footer footer" ;
+       }
+
+       @media screen and (max-width: 768px){
+        .bodybio{
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-areas: 
+            "header header header"
+            "main main main"
+            "footer footer footer";
+        }
+
+       }
+
+       @media screen and (max-width: 500px){
+        .bodybio{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+        }
+
+       }
+
+
+       
+ 
+
+
+
+
+
+
+
+       
 
 
 
